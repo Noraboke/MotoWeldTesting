@@ -1,5 +1,4 @@
 from clientController import MotoController
-from utils import *
 import time
 from outputAdresses import ot
 
