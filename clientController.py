@@ -39,8 +39,7 @@ class MotoController(object):
         self.simulation_real_time = 0
         self._sequence = 0
 
-        # apparently this increment also works the best with the robot
-        self.time_increment = 0.05 # this can be observed as the loop interval in INIT_ROS.jbi as well
+        self.time_increment = 0.05
 
         self.c_speed = 1/250 # connection is supposedly 250Hz
 
